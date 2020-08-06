@@ -41,7 +41,7 @@ include "registro/conexion.php";
                                     <a href=" crud/editar.php?id=<?php echo $fila['idinfo']?>" class="btn btn-secondary">
                                         <i class="fas fa-marker"></i>
                                     </a>
-                                    <a href=" crud/eliminarinfo.php?id=<?php echo $fila['idinfo']?>" class="btn btn-danger" onclick="return ConfirmDelete()">
+                                    <a href=" registro/eliminardes.php?id_descripcion=<?php echo $fila['id_descripcion']?>" class="btn btn-danger" onclick="return ConfirmDelete()">
                                         <i class="far fa-trash-alt"></i>
                                     </a>
                                 
@@ -83,7 +83,7 @@ include "registro/conexion.php";
                                     <a href=" crud/editar.php?id=<?php echo $fila['idinfo']?>" class="btn btn-secondary">
                                         <i class="fas fa-marker"></i>
                                     </a>
-                                    <a href=" crud/eliminarinfo.php?id=<?php echo $fila['idinfo']?>" class="btn btn-danger" onclick="return ConfirmDelete()">
+                                    <a href=" registro/eliminarespe.php?id_e=<?php echo $fila['id_e']?>" class="btn btn-danger" onclick="return ConfirmDelete()">
                                         <i class="far fa-trash-alt"></i>
                                     </a>
                                 
@@ -121,7 +121,7 @@ include "registro/conexion.php";
                                     <a href=" crud/editar.php?id=<?php echo $fila['idinfo']?>" class="btn btn-secondary">
                                         <i class="fas fa-marker"></i>
                                     </a>
-                                    <a href=" crud/eliminarinfo.php?id=<?php echo $fila['idinfo']?>" class="btn btn-danger" onclick="return ConfirmDelete()">
+                                    <a href=" registro/aliminarubic.php?id_u=<?php echo $fila['id_u']?>" class="btn btn-danger" onclick="return ConfirmDelete()">
                                         <i class="far fa-trash-alt"></i>
                                     </a>
                                 
