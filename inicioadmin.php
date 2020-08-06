@@ -51,7 +51,7 @@ include "registro/conexion.php";
                                     <a href=" crud/editar.php?id=<?php echo $fila['idinfo']?>" class="btn btn-secondary">
                                         <i class="fas fa-marker"></i>
                                     </a>
-                                    <a  <a href=" eliminarart.php?codigo_art=<?php echo $fila['codigo_art']?>" class="btn btn-danger" onclick="return ConfirmDelete()">
+                                    <a  <a href=" registro/eliminarart.php?codigo_art=<?php echo $fila['codigo_art']?>" class="btn btn-danger" onclick="return ConfirmDelete()">
                                         <i class="far fa-trash-alt"></i>
                                     </a>
                                 
