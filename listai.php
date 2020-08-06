@@ -43,8 +43,7 @@ include "registro/conexion.php";
                                     <a href=" crud/editar.php?id=<?php echo $fila['idinfo']?>" class="btn btn-secondary">
                                         <i class="fas fa-marker"></i>
                                     </a>
-                                    <a href=" crud/eliminarinfo.php?id=<?php echo $fila['idinfo']?>" class="btn btn-danger" onclick="return ConfirmDelete()">
-                                        <i class="far fa-trash-alt"></i>
+                                   <a href="registro/eliminarinfo.php?id_usu=<?php echo $fila['id_usu']?>" class="btn btn-danger" onclick="return ConfirmDelete()">
                                     </a>
                                 
                                 </td>
